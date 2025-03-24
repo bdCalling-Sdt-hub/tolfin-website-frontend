@@ -4,9 +4,11 @@ import AboutUs from "@/components/Pages/Home/AboutUs";
  
 import WhyChooseUs from "@/components/Pages/Home/Features";
 import HeroSection from "@/components/Pages/Home/HeroSection";
+import TeamSection from "@/components/Pages/Home/MeetSession";
 import PricingCard from "@/components/Pages/Home/PricingCard";
+import Question from "@/components/Pages/Home/Queston";
 import ServiceSection from "@/components/Pages/Home/ServiceSession";
-import SweetStories from "@/components/Pages/Home/SweetStories";
+
 import TestimonialSection from "@/components/Pages/Home/TestimonialSession";
 
 
@@ -19,9 +21,12 @@ const Home = () => {
       <WhyChooseUs />
       <PricingCard />
       <TestimonialSection/>
-      <SweetStories />
+      <TeamSection/>
+      <Question />
     </section>
   );
 };
 
 export default Home;
+
+

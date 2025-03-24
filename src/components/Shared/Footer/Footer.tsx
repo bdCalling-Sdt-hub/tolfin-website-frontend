@@ -1,60 +1,69 @@
 import Image from "next/image";
-import logo from "@/assets/logo/dating-logo.png";
+import logo from "@/assets/logo/tolfin.png"; // Replace with your logo file
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Link from "next/link";
+import footer from "@/assets/logo/footer.png"; // Replace with the image path of your choice
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#d9e6f2] px-5 py-16">
+    <footer className="w-full  text-white px-5 py-16 " style={{ backgroundImage: `url(${footer.src})` }}>
       <div className="w-full md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo and Description */}
         <div>
           <Link href="/">
-            <div className="w-36 md:w-48 h-24 relative ">
+            <div className="w-36 md:w-48 h-24 relative">
               <Image
                 src={logo}
-                alt="1PLUS1 Logo"
+                alt="Tolfin Logo"
                 layout="fill"
                 className="object-contain"
               />
             </div>
           </Link>
-          <p className="mt-4 text-sm text-gray-700">
-            Join our Christian dating platform built on honesty and respect for meaningful
-            relationships. Here real people make real connections! Your next great connection starts
-            here!
+          <p className="mt-4 text-sm">
+            Tolfin Global Limited was founded to make life easier and safer for those on the move. With 5+ years of industry experience, we’ve built a strong network and skilled team, committed to advancing technology and safety.
           </p>
         </div>
 
-        {/* User Navigation */}
+        {/* Explore Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">User Navigation</h3>
-          <ul className="text-sm text-gray-700 space-y-2">
+          <h3 className="text-lg font-semibold mb-4">Explore</h3>
+          <ul className="text-sm space-y-2">
             <li>
-              <Link href="/singles" className="hover:underline">
-                Singles
+              <Link href="/about" className="hover:underline">
+                About
               </Link>
             </li>
             <li>
-              <Link href="/my-profile" className="hover:underline">
-                My Profile
+              <Link href="/get-quote" className="hover:underline">
+                Get a Quote
               </Link>
             </li>
             <li>
-              <Link href="/subscriptions" className="hover:underline">
-                Subscriptions
+              <Link href="/services" className="hover:underline">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:underline">
+                Contact
               </Link>
             </li>
           </ul>
         </div>
 
-        {/* Quick Links */}
+        {/* Support Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-          <ul className="text-sm text-gray-700 space-y-2">
+          <h3 className="text-lg font-semibold mb-4">Support</h3>
+          <ul className="text-sm space-y-2">
             <li>
-              <Link href="/about-us" className="hover:underline">
-                About Us
+              <Link href="/faq" className="hover:underline">
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link href="/terms" className="hover:underline">
+                Terms & Condition
               </Link>
             </li>
             <li>
@@ -63,32 +72,32 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/terms-of-condition" className="hover:underline">
-                Terms of Condition
+              <Link href="/blog" className="hover:underline">
+                Blog
               </Link>
             </li>
           </ul>
         </div>
 
-        {/* Contact */}
+        {/* Contact Information */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <ul className="text-sm text-gray-700 space-y-4">
+          <ul className="text-sm space-y-4">
             <li className="flex items-center">
-              <FaEnvelope className="size-5 mr-2" />
-              <Link href="mailto:info@1plus1.com" className="hover:underline">
-                info@1plus1dating.de
+              <FaEnvelope className="mr-2" />
+              <Link href="mailto:info@tolfin.com" className="hover:underline">
+                info@tolfin.com
               </Link>
             </li>
             <li className="flex items-center">
-              <FaPhoneAlt className="size-5 mr-2" />
-              <Link href="tel:+2114918024" className="hover:underline">
-                +21 14 918 024
+              <FaPhoneAlt className="mr-2" />
+              <Link href="tel:+21481411870" className="hover:underline">
+                +214 814 118 70
               </Link>
             </li>
             <li className="flex items-center">
-              <FaMapMarkerAlt className="size-5 mr-2" />
-              <p>Frankfurt – Germany</p>
+              <FaMapMarkerAlt className="mr-2" />
+              <p>Dhaka, Bangladesh</p>
             </li>
           </ul>
         </div>
