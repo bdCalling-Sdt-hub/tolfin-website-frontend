@@ -9,7 +9,7 @@ export default function PricingCard() {
                 <p className="text-lg mb-12">
                     Choose from retainer plans or on-demand services to match your specific needs and budget.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
 
                     <div className="bg-[#154047] p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>

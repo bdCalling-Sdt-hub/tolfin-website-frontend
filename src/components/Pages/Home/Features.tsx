@@ -1,34 +1,28 @@
+
+
 import Image from 'next/image';
 import React from 'react';
 import pailoat from '@/assets/choose/user.png';
 import pail from '@/assets/choose/threuser.png';
 import Frame from '@/assets/choose/locksetting.png';
 import choo4se from '@/assets/choose/settingdoller.png';
-
-
 import { FaArrowRight } from 'react-icons/fa';
 
 const ServiceSection: React.FC = () => {
     return (
-        <div className="w-full container py-16">
-            <div className="flex flex-col  ">
+        <div className="w-full container py-16 px-4">
+            <div className="flex flex-col">
                 {/* Left Side Content */}
-
                 <h1 className="text-4xl font-semibold text-white mb-4">WHY CHOOSE US</h1>
                 <p className="text-lg text-gray-400 mb-8">
                     "Why Trust Tolfin Global?" <br />
                     With proven expertise, a highly trained team, and advanced technology, we deliver unmatched security and protocol service.
                 </p>
 
-
-
-
-
-
                 {/* Right Side Service Cards (4 Cards in Two Rows) */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {/* Card 1 */}
-                    <div className="flex items-center bg-teal-800 p-6 rounded-2xl shadow-xl space-x-6">
+                    <div className="flex md:flex-row items-center bg-teal-800 p-6 rounded-2xl shadow-xl space-x-6">
                         <div className="w-1/3">
                             <Image
                                 width={150}

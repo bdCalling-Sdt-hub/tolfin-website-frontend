@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import aboutUs from "@/assets/about/about.jpg";
-import ChooseUs from "../Home/ChooseUs";
+import aboutUs from "@/assets/about/pailoat.png";
+
 import DatingTips from "../DatingTips/DatingTips";
 
 const AboutUs = () => {
@@ -73,7 +73,7 @@ const AboutUs = () => {
       </div>
 
       <DatingTips />
-      <ChooseUs />
+      
     </div>
   );
 };

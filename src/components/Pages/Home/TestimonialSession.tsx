@@ -14,7 +14,7 @@ const TestimonialSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
                 {/* First Card */}
                 <div className="bg-[#154047] p-6 rounded-lg shadow-lg">
-                    <div className="flex items-center mb-4">
+                    <div className="flex md:flex-row sm:flex-col items-center mb-4">
                         {/* Left Side - Image */}
                         <div className="w-1/3">
                             <Image
@@ -38,7 +38,7 @@ const TestimonialSection = () => {
 
                 </div>
                 {/* Other 3 Small Cards */}
-                <div className="flex justify-center space-x-6">
+                <div className="lg:flex  justify-center space-x-6">
                     <Image src={hollywood3} alt="Johnny Depp" width={180} height={180} className="rounded-full" />
                     <Image src={hollywood2} alt="Chris Hemsworth" width={180} height={180} className="rounded-full" />
                     <Image src={hollywood4} alt="Dwayne Johnson" width={180} height={180} className="rounded-full" />

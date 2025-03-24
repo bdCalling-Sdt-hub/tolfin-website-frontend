@@ -3,11 +3,12 @@ import logo from "@/assets/logo/tolfin.png"; // Replace with your logo file
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Link from "next/link";
 import footer from "@/assets/logo/footer.png"; // Replace with the image path of your choice
+import yeollow from "@/assets/hero/yeollow.png"; // Replace with the image path of your choice
 
 const Footer = () => {
   return (
     <footer className="w-full  text-white px-5 py-16 " style={{ backgroundImage: `url(${footer.src})` }}>
-      <div className="w-full md:container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="w-full md:container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Logo and Description */}
         <div>
           <Link href="/">
@@ -100,6 +101,15 @@ const Footer = () => {
               <p>Dhaka, Bangladesh</p>
             </li>
           </ul>
+        </div>
+        <div className="w-36 md:w-48 h-24 relative">
+          <Image
+            src={yeollow}
+            alt="Tolfin Logo"
+            width={400}
+           
+            className="object-contain"
+          />
         </div>
       </div>
     </footer>

@@ -11,7 +11,7 @@ export default function Question() {
     };
 
     return (
-        <div className="w-full container text-white min-h-screen flex items-center justify-center p-6">
+        <div className="w-full   container text-white min-h-screen flex items-center justify-center p-6">
 
             <div className="flex flex-col items-start text-white w-1/2">
                 <h1 className="text-4xl font-semibold mb-4">Frequently Ask Question</h1>
@@ -34,7 +34,7 @@ export default function Question() {
             </div>
 
             {/* Right side: FAQ content */}
-            <div className="w-2/3 ml-8 bg-[#154047]  p-10 rounded-3xl">
+            <div className="lg:w-2/3 ml-8 bg-[#154047]  p-10 rounded-3xl">
 
 
                 <div className="space-y-4">
