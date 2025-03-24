@@ -9,7 +9,7 @@ import pic4 from "@/assets/about/aboutcctv.png";
 
 export default function AboutUs() {
     return (
-        <div className="bg-black text-white py-12  ">
+        <div className="bg-[#111111] text-white py-12  ">
             <div className="w-full container mx-auto flex items-center justify-between space-x-12">
                 {/* Left Side Content */}
                 <div className="max-w-xl">

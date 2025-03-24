@@ -3,7 +3,8 @@ import AboutUs from "@/components/Pages/Home/AboutUs";
 
 import ChooseUs from "@/components/Pages/Home/ChooseUs";
 import HeroSection from "@/components/Pages/Home/HeroSection";
-import HowItWorks from "@/components/Pages/Home/HowItWorks";
+ 
+import ServiceSection from "@/components/Pages/Home/ServiceSession";
 import SweetStories from "@/components/Pages/Home/SweetStories";
 import Testimonials from "@/components/Pages/Home/Testimonials";
 
@@ -12,7 +13,7 @@ const Home = () => {
     <section className="w-full  bg-gradient-to-t from-[#111111] to-[#111111]">
       <HeroSection />
       <AboutUs />
-      <HowItWorks/>
+      <ServiceSection/>
       <Testimonials />
       <ChooseUs/>
       <SweetStories/>
