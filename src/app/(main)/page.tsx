@@ -1,5 +1,5 @@
 
-import AboutUs from "@/components/Pages/Home/AboutUs";
+import AboutUs from "@/components/Pages/Home/About";
 
  
 import WhyChooseUs from "@/components/Pages/Home/Features";

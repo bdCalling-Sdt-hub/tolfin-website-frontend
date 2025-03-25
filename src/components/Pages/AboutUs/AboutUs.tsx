@@ -1,79 +1,80 @@
 "use client";
 import React from "react";
-import aboutUs from "@/assets/about/pailoat.png";
+import ServiceSection from "../Home/ServiceSession";
+import ServiceSect from "../Home/Features";
+import MeetSession from "../Home/MeetSession";
+import Image from "next/image";
 
-import DatingTips from "../DatingTips/DatingTips";
+import pic1 from "@/assets/about/aboucomputer.jpg";
+import pic2 from "@/assets/about/AboutTrade.jpg";
+import pic3 from "@/assets/about/Aboutsecuraty.jpg";
+import pic4 from "@/assets/about/aboutcctv.png";
+
+
 
 const AboutUs = () => {
   return (
-    <div className="w-full">
-      {/* Hero Section */}
-      <div
-        style={{ backgroundImage: `url(${aboutUs.src})` }}
-        className="w-full h-[650px] bg-cover bg-center relative"
-      >
-        <div className="absolute inset-0  flex items-center justify-center p-5">
-          <div className="w-full max-w-6xl mx-auto text-center text-white p-5 md:p-10 mt-0 md:mt-20 rounded-lg bg-black bg-opacity-60 space-y-5">
-            <h1 className="text-xl md:text-3xl font-bold mb-5">About Us</h1>
-            <p className="text-sm md:text-lg mb-2 flex flex-col gap">
-              <span className="italic">
-                Welcome to 1Plus1Dating where real people make real connections!
-              </span>
-              <br />
-              <span>
-                1Plus1Dating is a Christian Singles community where Christian{" "}
-                <br />
-                Singles “connect” for serious and valuable relationships.
-              </span>
-            </p>
-            <p className="text-[13px] md:text-[15px]">
-              Our community has been built to bring meaningful connections for
-              serious relationships based on Christian principles. We value
-              honesty and respect and have zero tolerance for immoral and
-              disrespectful behavior. At 1Plus1 Dating, we understand that there
-              is no better place than an online platform for Christians to feel
-              free in Presenting themselves and making their values known.
-              <br />
-              <br />
-              We at 1Plus1Dating are on a mission to connect you to the one that
-              resonates with your value.
-            </p>
+    <div className="bg-[#111111] text-white py-12">
+      <div className="w-full container mt-20">
+        {/* Hero Section */}
+        <div className=" text-white py-12">
+          <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
+            {/* Left Side Content */}
+            <div className="max-w-xl text-center md:text-left">
+              <h2 className="text-3xl font-semibold mb-6">About Us</h2>
+              <p className="text-lg mb-6">
+                Tolfin Global Limited was born out of a simple idea: to make life easier and safer for those who are constantly on the move. With over five years of industry experience, we have built a strong network of partners, a team of highly skilled professionals, and a technology-driven operational framework.
+              </p>
+              <p className="text-lg">
+                Our journey has been shaped by the needs of our clients—corporate organizations, government agencies, diplomatic missions, and individuals who demand nothing but the best. We’ve learned that in a world where time is money and safety is non-negotiable, our clients need more than just a service provider—they need a partner they can trust. That’s exactly what we strive to be every day.
+              </p>
+            </div>
+
+            {/* Right Side Image */}
+            <div className="grid grid-cols-2 gap-4 w-full md:w-[500px]">
+              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
+                <Image
+                  width={250}
+                  height={250}
+                  src={pic1} // Update with the correct path
+                  alt="image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
+                <Image
+                  width={250}
+                  height={250}
+                  src={pic2} // Update with the correct path
+                  alt="image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
+                <Image
+                  width={250}
+                  height={250}
+                  src={pic3} // Update with the correct path
+                  alt="image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
+                <Image
+                  width={250}
+                  height={250}
+                  src={pic4} // Update with the correct path
+                  alt="image"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
+        <ServiceSection />
+        <ServiceSect />
+        <MeetSession />
       </div>
-
-      {/* Message Section */}
-      <div className="py-20 px-5 md:px-20">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-5">
-            Our Mission
-          </h2>
-          <p className="text-gray-600 text-sm md:text-lg lg:text-xl leading-relaxed">
-            At <span className="text-primary font-semibold">1Plus1Dating</span>
-            , we are passionate about bringing people closer together and
-            helping them find meaningful relationships. We’ve built this
-            platform with the belief that everyone deserves to connect with
-            someone who truly complements them.
-            <br />
-            <br />
-            Our mission is to create a safe, supportive, and inclusive space
-            where Christian Singles of all ages can meet, discover common
-            values, and build lasting and serious relationships based on
-            Christian principles. Every feature on{" "}
-            <span className="text-primary font-semibold">1Plus1Dating</span> is
-            designed with your needs in mind, making your journey toward finding
-            the perfect match both seamless and enjoyable.
-            <br />
-            <br />
-            Thank you for choosing{" "}
-            <span className="text-primary font-semibold">1Plus1Dating</span>.
-            We are excited to be part of your story!
-          </p>
-        </div>
-      </div>
-
-      <DatingTips />
-      
     </div>
   );
 };
