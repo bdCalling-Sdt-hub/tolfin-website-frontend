@@ -56,7 +56,7 @@ const Navbar = () => {
       <nav className="md:w-full md:container mx-auto  flex justify-between items-center h-full ">
         {/* Logo */}
         <Link href="/">
-          <Image src={logo} alt="logo" width={130} height={80} className="rounded-md te " />
+          <Image src={logo} alt="logo" width={130} height={80} className="rounded-md bg-white p-2 " />
         </Link>
 
         {/* Desktop Navigation */}
@@ -87,7 +87,7 @@ const Navbar = () => {
                   className="w-[40px] h-[40px] rounded-full cursor-pointer"
                 />
               </button>
-              {isHovering && ( // Show dropdown when hovering
+              {isHovering && (  
                 <div className="absolute right-0  w-48 bg-white shadow-lg rounded-lg py-2">
                   <Link href="/my-profile">
                     <p className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Profile</p>

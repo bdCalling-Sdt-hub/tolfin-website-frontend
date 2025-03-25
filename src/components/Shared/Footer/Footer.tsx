@@ -12,12 +12,14 @@ const Footer = () => {
         {/* Logo and Description */}
         <div>
           <Link href="/">
-            <div className="w-36 md:w-48 h-24 relative">
+            <div className=" ">
               <Image
                 src={logo}
                 alt="Tolfin Logo"
-                layout="fill"
-                className="object-contain"
+                width={130} 
+                height={80}
+                
+                className="object-contain bg-white p-2 rounded-md"
               />
             </div>
           </Link>

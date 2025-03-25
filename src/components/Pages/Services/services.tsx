@@ -6,10 +6,12 @@ export default function Service() {
     return (
         <div className='bg-[#111111]'>
             <div className="w-full container text-white py-16">
-                <h2 className="text-3xl font-bold mb-12 mt-10 text-center md:text-left">
-                    Our Services
-                </h2>
-                <p className='font-small text-gray-600 py-5'>Elite Security & Travel Solutions You Can Trust.Providing seamless VIP travel, <br /> security, and protocol services with professionalism and discretion.</p>
+                <div className='px-5'>
+                    <h2 className="text-3xl font-bold mb-12 mt-10 text-center md:text-left">
+                        Our Services
+                    </h2>
+                    <p className='font-small text-gray-600 py-5'>Elite Security & Travel Solutions You Can Trust.Providing seamless VIP travel, <br /> security, and protocol services with professionalism and discretion.</p>
+                </div>
                 <div className="w-full container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Service Card */}
                     {[...Array(9)].map((_, index) => (
@@ -27,7 +29,7 @@ export default function Service() {
                                     Providing armed security for high-net-worth individuals, dignitaries, and sensitive events.
                                 </p>
                                 <div className="flex justify-center mt-4">
-                                    <button className="text-[#94c2c9] px-6 py-2 rounded-2xl shadow-2xl bg-[#21525a60] hover:bg-gray-600 transition-colors">
+                                    <button className="text-[#94c2c9] px-6 py-2 rounded-2xl shadow-2xl bg-[#abe9f360] hover:bg-gray-600 transition-colors">
                                         Learn More
                                     </button>
                                 </div>

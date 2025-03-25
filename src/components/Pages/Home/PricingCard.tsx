@@ -1,9 +1,11 @@
- 
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
+
 
 export default function PricingCard() {
     return (
         <section className=" py-12 px-4 text-white">
-            <div className="container mx-auto">
+            <div className="w-full container mx-auto">
                 <h2 className="text-3xl font-semibold mb-5">Pricing Structure</h2>
                 <p className="text-xl mb-4">"Flexible & Transparent Pricing"</p>
                 <p className="text-lg mb-12">
@@ -11,7 +13,7 @@ export default function PricingCard() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
 
-                    <div className="bg-[#154047] p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
                         <p className="text-sm mb-6">
                             (For ongoing support and priority service)
@@ -20,25 +22,18 @@ export default function PricingCard() {
                             <li>Fixed monthly fee ensuring guaranteed availability and proactive planning.</li>
                             <li>Dedicated account manager and priority access to our team.</li>
                         </ul>
-                        <button className="mt-6 py-2 px-4 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-all duration-300">
+
+                        <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
                             Book Appointment
-                        </button>
+                            <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                                <FaArrowRight className="text-white" />
+                            </div>
+                        </button></Link>
                     </div>
 
-                    <div className="bg-[#154047] p-6 rounded-3xl shadow-lg">
-                        <h3 className="text-xl font-semibold mb-4">Ad-Hoc or On-Demand Option</h3>
-                        <p className="text-sm mb-6">
-                            Pay-as-you-go model with transparent hourly rates and project-based pricing.
-                        </p>
-                        <ul className="text-sm space-y-2">
-                            <li>Ideal for short-term needs or emergency response services.hourly rates and project-based pricing.</li>
-                        </ul>
-                        <button className="mt-6 py-2 px-4 bg-teal-500 text-white rounded-lg hover:bg-teal-600">
-                            Book Appointment
-                        </button>
-                    </div>
 
-                    <div className="bg-[#154047] p-6 rounded-3xl shadow-lg">
+
+                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
                         <p className="text-sm mb-6">
                             (For ongoing support and priority service)
@@ -47,10 +42,33 @@ export default function PricingCard() {
                             <li>Fixed monthly fee ensuring guaranteed availability and proactive planning.</li>
                             <li>Dedicated account manager and priority access to our team.</li>
                         </ul>
-                        <button className="mt-6 py-2 px-4 bg-teal-500 text-white rounded-lg hover:bg-teal-600">
+
+                        <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
                             Book Appointment
-                        </button>
+                            <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                                <FaArrowRight className="text-white" />
+                            </div>
+                        </button></Link>
                     </div>
+
+                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                        <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
+                        <p className="text-sm mb-6">
+                            (For ongoing support and priority service)
+                        </p>
+                        <ul className="text-sm space-y-2">
+                            <li>Fixed monthly fee ensuring guaranteed availability and proactive planning.</li>
+                            <li>Dedicated account manager and priority access to our team.</li>
+                        </ul>
+
+                        <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                            Book Appointment
+                            <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                                <FaArrowRight className="text-white" />
+                            </div>
+                        </button></Link>
+                    </div>
+
                 </div>
             </div>
         </section>

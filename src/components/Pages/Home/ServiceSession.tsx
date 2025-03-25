@@ -4,6 +4,7 @@ import pailoat from '@/assets/about/pailoat.png';
 import pail from '@/assets/about/pailoat2.png';
 import Frame from '@/assets/about/frame.png';
 import { FaArrowRight } from 'react-icons/fa';
+import Link from 'next/link';
 
 const ServiceSection: React.FC = () => {
     return (
@@ -33,7 +34,7 @@ const ServiceSection: React.FC = () => {
                 {/* Right Side Service Cards */}
                 <div className="flex flex-col space-y-8 w-full lg:w-1/2">
                     {/* Card 1 */}
-                    <div className="flex flex-col md:flex-row items-center bg-teal-800 p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                         {/* Left Side Image */}
                         <div className="w-1/3">
                             <Image
@@ -59,7 +60,7 @@ const ServiceSection: React.FC = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="flex flex-col md:flex-row items-center bg-teal-800 p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                         {/* Left Side Image */}
                         <div className="w-1/3">
                             <Image
@@ -88,9 +89,12 @@ const ServiceSection: React.FC = () => {
 
             {/* Book Appointment Button */}
             <div className="flex justify-center mt-8">
-                <button className="flex items-center gap-2 bg-[#154047] text-[#fbfdfd] px-6 py-3 rounded-lg shadow-md hover:bg-[#55a2ad] transition duration-300 ease-in-out">
-                    Book Appointment <FaArrowRight />
-                </button>
+                <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                    Book Appointment
+                    <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                        <FaArrowRight className="text-white" />
+                    </div>
+                </button></Link>
             </div>
         </div>
     );
