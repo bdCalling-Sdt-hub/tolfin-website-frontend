@@ -13,8 +13,8 @@ const TestimonialSection = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
                 {/* First Card */}
-                <div className="bg-[#154047] p-6 rounded-lg shadow-lg">
-                    <div className="flex md:flex-row sm:flex-col items-center mb-4">
+                <div className="bg-[#154047] p-6 rounded-lg shadow-lg ">
+                    <div className="flex md:flex-row sm:flex-col items-center mb-4 w-2/2">
                         {/* Left Side - Image */}
                         <div className="w-1/3">
                             <Image

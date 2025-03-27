@@ -36,9 +36,12 @@ const HeroSection = () => {
           <div
             className="w-full h-full bg-cover bg-center cursor-pointer"
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage.src})`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.8) 100%), url(${heroImage.src})`,
               boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
             }}
+
+          
+            
           >
             <div className="w-full md:container h-full px-5 py-40 md:py-56 xl:py-64">
               <div className="flex flex-col md:flex-row justify-between items-center md:mt-20">
@@ -64,7 +67,7 @@ const HeroSection = () => {
 
 
 
-                <div className="w-[418px] h-[400px] md:mt-20 text-center text-white  py-8 md:px-8 md:py-10 max-w-lg rounded-xl shadow-lg bg-[#3fa5b47c]">
+                <div className="md:w-[418px] md:h-[400px] md:mt-20 text-center text-white  py-8 md:px-8 md:py-10 max-w-lg rounded-xl shadow-lg bg-[#1540474D] border-2 border-[#627F84]">
                   <h2 className="text-2xl font-semibold mb-4 text-white">Reliable Security Services, Anytime You Need</h2>
                   <div className="bg-[#f0f0f0] p-5 rounded-lg w-[354px]">
                     <p className="text-sm text-black">
