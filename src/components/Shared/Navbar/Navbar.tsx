@@ -109,7 +109,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href="/register">
-              <button className="px-5 py-2 bg-[#154047] text-white rounded-lg">Sign In</button>
+              <button className="px-5 py-2 bg-[#1f636d48] text-white rounded-lg">Sign In</button>
             </Link>
           )}
         </div>

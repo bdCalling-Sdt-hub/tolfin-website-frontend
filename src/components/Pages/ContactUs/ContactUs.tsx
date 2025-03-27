@@ -64,13 +64,14 @@ const ContactForm = () => {
               <p className="mb-2">Details</p>
               <textarea
                 placeholder="Add details"
-                className="w-full p-3 bg-[#4F6367] text-white rounded-md"
+                className="w-full p-3 bg-[#4F6367] text-white rounded-md h-24"
               ></textarea>
             </div>
             <div className="flex items-center">
               <button className="bg-[#4F6367] text-white py-2 px-6 rounded-md">Submit</button>
             </div>
           </div>
+
         </div>
       </div>
 

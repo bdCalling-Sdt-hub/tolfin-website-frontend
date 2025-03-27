@@ -84,3 +84,12 @@ body {
 .animate-slide-up {
   animation: slide-up 0.3s ease-out;
 }
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* for Internet Explorer 10+ */
+  scrollbar-width: none; /* for Firefox */
+}
