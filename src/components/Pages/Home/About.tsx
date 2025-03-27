@@ -1,4 +1,4 @@
-// pages/index.js or wherever you want to place the About Us section
+
 import Image from "next/image";
 
 import pic1 from "@/assets/about/aboucomputer.jpg";
@@ -10,7 +10,7 @@ export default function About() {
     return (
         <div className="bg-[#111111] text-white py-12">
             <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
-                {/* Left Side Content */}
+                
                 <div className="max-w-xl text-center md:text-left">
                     <h2 className="text-3xl font-semibold mb-6">About Us</h2>
                     <p className="text-lg mb-6">
@@ -21,13 +21,13 @@ export default function About() {
                     </p>
                 </div>
 
-                {/* Right Side Image */}
+                
                 <div className="grid grid-cols-2 gap-4 w-full md:w-[500px]">
                     <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
                         <Image
                             width={250}
                             height={250}
-                            src={pic1} // Update with the correct path
+                            src={pic1} 
                             alt="image"
                             className="w-full h-full object-cover"
                         />
@@ -36,7 +36,7 @@ export default function About() {
                         <Image
                             width={250}
                             height={250}
-                            src={pic2} // Update with the correct path
+                            src={pic2} 
                             alt="image"
                             className="w-full h-full object-cover"
                         />
@@ -45,7 +45,7 @@ export default function About() {
                         <Image
                             width={250}
                             height={250}
-                            src={pic3} // Update with the correct path
+                            src={pic3} 
                             alt="image"
                             className="w-full h-full object-cover"
                         />
@@ -54,7 +54,7 @@ export default function About() {
                         <Image
                             width={250}
                             height={250}
-                            src={pic4} // Update with the correct path
+                            src={pic4} 
                             alt="image"
                             className="w-full h-full object-cover"
                         />

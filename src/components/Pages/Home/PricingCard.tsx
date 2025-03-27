@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function PricingCard() {
     return (
-        <section className=" py-12 px-4 text-white">
+        <section className=" py-12   text-white">
             <div className="w-full container mx-auto">
                 <h2 className="text-3xl font-semibold mb-5">Pricing Structure</h2>
                 <p className="text-xl mb-4">"Flexible & Transparent Pricing"</p>
@@ -13,7 +13,7 @@ export default function PricingCard() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
 
-                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                    <div className="w-full max-w-lg p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
                         <p className="text-sm mb-6">
                             (For ongoing support and priority service)
@@ -33,7 +33,7 @@ export default function PricingCard() {
 
 
 
-                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                    <div className="w-full max-w-lg p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
                         <p className="text-sm mb-6">
                             (For ongoing support and priority service)
@@ -51,7 +51,7 @@ export default function PricingCard() {
                         </button></Link>
                     </div>
 
-                    <div className="w-full max-w-md p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                    <div className="w-full max-w-lg p-4 bg-[#154047] border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <h3 className="text-xl font-semibold mb-4">Retainer Option</h3>
                         <p className="text-sm mb-6">
                             (For ongoing support and priority service)

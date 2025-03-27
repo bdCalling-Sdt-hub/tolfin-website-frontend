@@ -26,7 +26,7 @@ const TestimonialSection = () => {
                             />
                         </div>
                         {/* Right Side - Content */}
-                        <div className='w-2/3'>
+                        <div className='w-3/4'>
                             <p className="text-lg">
                                 I recently used Toflin Global’s VIP travel and security services, and I was highly impressed. Their team ensured a smooth airport experience with distant and efficient handling. The security detail was top-notch, and the entire process was seamless. I felt safe, valued, and well taken care of. Highly recommend their services for anyone seeking reliability and professionalism!
                             </p>

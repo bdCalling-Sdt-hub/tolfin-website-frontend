@@ -28,7 +28,7 @@ const ServiceSection: React.FC = () => {
                             <Image
                                 width={150}
                                 height={150}
-                                src={pailoat} // Update with the correct path
+                                src={pailoat}  
                                 alt="image"
                                 className="w-full h-full object-cover rounded-2xl"
                             />

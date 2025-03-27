@@ -52,7 +52,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className={`w-full h-[80px] fixed top-0 z-50 transition-all duration-300 bg-[#1540474D]`}>
+    <header className={`w-full h-[80px] fixed top-0 z-50 transition-all duration-300 `}>
       <nav className="md:w-full md:container mx-auto  flex justify-between items-center h-full ">
         {/* Logo */}
         <Link href="/">
@@ -60,7 +60,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center gap-5 md:gap-8">
+        <ul className="hidden md:flex items-center gap-5 md:gap-8 bg-[#1540474D] p-5 rounded-lg">
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link href={link.href} className="text-white hover:text-gray-300">

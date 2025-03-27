@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <div>
       <div className="bg-[#111] text-white p-8">
-        <div className="w-full container mx-auto flex flex-col md:flex-row gap-8 mt-20">
+        <div className="w-full container  mx-auto flex flex-col md:flex-row gap-8 mt-20 ">
 
           <div className="bg-[#4F6367] flex-1 p-10 rounded-lg">
             <h2 className="text-3xl font-bold mb-6">Contact Details</h2>

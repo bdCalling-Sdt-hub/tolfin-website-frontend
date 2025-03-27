@@ -18,7 +18,7 @@ const AboutUs = () => {
       <div className="w-full container mt-20">
         {/* Hero Section */}
         <div className=" text-white py-12">
-          <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
+          <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 ">
             {/* Left Side Content */}
             <div className="max-w-xl text-center md:text-left">
               <h2 className="text-3xl font-semibold mb-6">About Us</h2>

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { EffectFade, Autoplay } from "swiper/modules";
-import heroImage from "@/assets/hero/heroImage.png"; // Replace with the image path of your choice
+import heroImage from "@/assets/hero/heroImage.png";
 import useUser from "@/hooks/useUser";
 import { useDispatch } from "react-redux";
 import { } from "@/redux/features/auth/authSlice";
@@ -36,7 +36,7 @@ const HeroSection = () => {
             className="w-full h-full bg-cover bg-center cursor-pointer"
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage.src})`,
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // Add the shadow here
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
             }}
           >
             <div className="w-full md:container h-full px-5 py-40 md:py-56 xl:py-64">
@@ -61,15 +61,17 @@ const HeroSection = () => {
 
 
                 <div className="w-full md:w-[30%] md:mt-20 bg-cover bg-center">
-                  <div className="text-center text-white px-6 py-8 md:px-16 md:py-12 max-w-lg rounded-xl shadow-lg bg-[#1f4b527c]">
-                    <h2 className="text-3xl font-semibold mb-4">Reliable Security Services, Anytime You Need</h2>
-                    <p className="mb-6 text-lg">
-                      Ensure your safety with our professional security solutions. From personal protection to corporate security, we offer top-tier services tailored to your needs.
-                      Our highly trained security professionals are available 24/7 to safeguard what matters most to you.
-                    </p>
-                    <button className="flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                  <div className="text-center text-white px-6 py-8 md:px-16 md:py-12 max-w-lg rounded-xl shadow-lg bg-[#3fa5b47c]">
+                    <h2 className="text-3xl font-semibold mb-4 text-white">Reliable Security Services, Anytime You Need</h2>
+                    <div className="bg-[#f0f0f0] p-5 rounded-lg">
+                      <p className="mb-6 text-lg text-black">
+                        Ensure your safety with our professional security solutions. From personal protection to corporate security, we offer top-tier services tailored to your needs.
+                        Our highly trained security professionals are available 24/7 to safeguard what matters most to you.
+                      </p>
+                    </div>
+                    <button className="mt-5 flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
                       Book Appointment
-                      <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                      <div className="bg-[#40d1c559] w-10 h-10 rounded-lg flex items-center justify-center">
                         <FaArrowRight className="text-white" />
                       </div>
                     </button>
