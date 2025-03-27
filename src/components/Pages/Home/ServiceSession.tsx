@@ -34,7 +34,7 @@ const ServiceSection: React.FC = () => {
                 {/* Right Side Service Cards */}
                 <div className="flex flex-col space-y-8 w-full lg:w-1/2">
                     {/* Card 1 */}
-                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                         {/* Left Side Image */}
                         <div className="w-1/3">
                             <Image
@@ -60,7 +60,7 @@ const ServiceSection: React.FC = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                    <div className="flex flex-col md:flex-row items-center bg-[#154047] p-6 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                         {/* Left Side Image */}
                         <div className="w-1/3">
                             <Image

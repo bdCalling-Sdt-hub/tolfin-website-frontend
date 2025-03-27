@@ -24,19 +24,20 @@ const ServiceSection: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {/* Card 1 */}
                     <div className="flex md:flex-row items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-x-6">
-                        <div className="w-1/3">
+                        <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
                                 height={150}
-                                src={pailoat}  
+                                src={pailoat}
                                 alt="image"
                                 className="w-full h-full object-cover rounded-2xl"
                             />
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                <span className="text-2xl font-bold text-white">01</span>
+
                                 <div className="text-white font-semibold text-lg">
+                                    01 <br />
                                     SECURE JOURNEY MANAGEMENT & AIRPORT MEET AND GREET
                                 </div>
                             </div>
@@ -48,7 +49,7 @@ const ServiceSection: React.FC = () => {
 
                     {/* Card 2 */}
                     <div className="flex items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-x-6">
-                        <div className="w-1/3">
+                        <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
                                 height={150}
@@ -59,8 +60,9 @@ const ServiceSection: React.FC = () => {
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                <span className="text-2xl font-bold text-white">02</span>
+
                                 <div className="text-white font-semibold text-lg">
+                                    02 <br />
                                     VIP PROTECTION & SECURE ESCORT SERVICES
                                 </div>
                             </div>
@@ -72,7 +74,7 @@ const ServiceSection: React.FC = () => {
 
                     {/* Card 3 */}
                     <div className="flex items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-x-6">
-                        <div className="w-1/3">
+                        <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
                                 height={150}
@@ -83,8 +85,9 @@ const ServiceSection: React.FC = () => {
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                <span className="text-2xl font-bold text-white">03</span>
+                                
                                 <div className="text-white font-semibold text-lg">
+                                    03 <br />
                                     AIRPORT TRANSFERS & CUSTOMIZED TRAVEL PLANS
                                 </div>
                             </div>
@@ -96,7 +99,7 @@ const ServiceSection: React.FC = () => {
 
                     {/* Card 4 */}
                     <div className="flex items-center bg-[#154047] p-6 rounded-2xl shadow-xl space-x-6">
-                        <div className="w-1/3">
+                        <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
                                 height={150}
@@ -107,8 +110,9 @@ const ServiceSection: React.FC = () => {
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                <span className="text-2xl font-bold text-white">04</span>
+                                
                                 <div className="text-white font-semibold text-lg">
+                                    04 <br />
                                     EMERGENCY RESPONSE & SECURITY CONSULTATION
                                 </div>
                             </div>

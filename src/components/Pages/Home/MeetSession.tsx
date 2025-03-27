@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function TeamSection() {
     return (
-        <div className=" w-full container min-h-screen  flex flex-col items-center justify-center py-12 px-4">
+        <div className=" w-full container min-h-screen  flex flex-col items-center justify-center py-12 ">
             <h1 className="text-white text-3xl font-bold mb-4">Meet The Team</h1>
             <p className="text-white text-sm font-bold mb-10">Managing Director/CEO management and leadership. <br/> A passionate team dedicated to innovation, creativity, and excellence.</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
