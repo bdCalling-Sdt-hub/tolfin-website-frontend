@@ -7,7 +7,7 @@ import { ConfigProvider } from "antd";
 import Script from "next/script";
 import { SocketProvider } from "@/context/socketProvider";
 export const metadata: Metadata = {
-  title: "Tolfin website",
+  title: "Taribike || Tolfin Security website",
   description: "Join our Christian tolfin platform built on honesty and respect for meaningful relationships. Here real people make real connections! Your next great connection starts here!",
 };
 

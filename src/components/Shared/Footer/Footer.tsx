@@ -7,8 +7,8 @@ import yeollow from "@/assets/hero/yeollow.png"; // Replace with the image path 
 
 const Footer = () => {
   return (
-    <footer className="w-full  text-white px-5 py-16 " style={{ backgroundImage: `url(${footer.src})` }}>
-      <div className="w-full md:container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+    <footer className="w-full  text-white px-5 py-16  " style={{ backgroundImage: `url(${footer.src})` }}>
+      <div className="w-full md:container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 ">
         {/* Logo and Description */}
         <div>
           <Link href="/">
