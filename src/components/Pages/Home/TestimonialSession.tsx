@@ -38,7 +38,7 @@ const TestimonialSection = () => {
 
                 </div>
                 {/* Other 3 Small Cards */}
-                <div className="lg:flex  justify-center space-x-6">
+                <div className="lg:flex  justify-end space-x-6">
                     <Image src={hollywood3} alt="Johnny Depp" width={180} height={180} className="rounded-full" />
                     <Image src={hollywood2} alt="Chris Hemsworth" width={180} height={180} className="rounded-full" />
                     <Image src={hollywood4} alt="Dwayne Johnson" width={180} height={180} className="rounded-full" />

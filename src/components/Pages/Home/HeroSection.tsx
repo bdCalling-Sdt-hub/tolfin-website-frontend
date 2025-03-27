@@ -43,7 +43,7 @@ const HeroSection = () => {
               <div className="flex flex-col md:flex-row justify-between items-center md:mt-20">
                 <div className="space-y-5 md:space-y-8 md:mt-60 w-full md:w-2/3">
                   <h1 className="text-3xl md:text-4xl xl:text-6xl font-medium text-white">
-                    Smart Security for <br /> the Modern Executive.
+                    Smart Security for the <br /> Modern Executive.
                   </h1>
 
                   {!user && (
