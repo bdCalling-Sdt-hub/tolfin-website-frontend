@@ -12,7 +12,7 @@ export default function Question() {
     };
 
     return (
-        <div className="w-full container text-white lg:flex items-center justify-center pb-20  sm:px-8 ">
+        <div className="w-full container text-white lg:flex items-center justify-center pb-20 px-4 sm:px-4 ">
 
             <div className='w-full md:w-1/2'>
                 <div className="flex flex-col items-start text-white">
@@ -57,3 +57,4 @@ export default function Question() {
         </div>
     );
 }
+
