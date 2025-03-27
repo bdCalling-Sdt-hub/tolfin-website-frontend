@@ -33,22 +33,22 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Explore</h3>
           <ul className="text-sm space-y-2">
             <li>
-              <Link href="/about" className="hover:underline">
+              <Link href="/about-us" className="hover:underline">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/get-quote" className="hover:underline">
+              <Link href="/get-qoute" className="hover:underline">
                 Get a Quote
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:underline">
+              <Link href="/our-services" className="hover:underline">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:underline">
+              <Link href="/contact-us" className="hover:underline">
                 Contact
               </Link>
             </li>
@@ -60,12 +60,12 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Support</h3>
           <ul className="text-sm space-y-2">
             <li>
-              <Link href="/faq" className="hover:underline">
+              <Link href="/Queston" className="hover:underline">
                 FAQ
               </Link>
             </li>
             <li>
-              <Link href="/terms" className="hover:underline">
+              <Link href="/terms-of-condition" className="hover:underline">
                 Terms & Condition
               </Link>
             </li>
