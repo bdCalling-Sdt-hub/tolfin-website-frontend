@@ -1,15 +1,13 @@
 
 import Image from "next/image";
 
-import pic1 from "@/assets/about/aboucomputer.jpg";
-import pic2 from "@/assets/about/AboutTrade.jpg";
-import pic3 from "@/assets/about/Aboutsecuraty.jpg";
-import pic4 from "@/assets/about/aboutcctv.png";
+import pic1 from "@/assets/about/Frame 30.png";
+
 
 export default function About() {
     return (
         <div className="bg-[#111111] text-white py-12">
-            <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
+            <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-16">
                 
                 <div className="max-w-xl text-center md:text-left">
                     <h2 className="text-3xl font-semibold mb-6">About Us</h2>
@@ -22,43 +20,10 @@ export default function About() {
                 </div>
 
                 
-                <div className="grid grid-cols-2 gap-4 w-full md:w-[500px]">
-                    <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                        <Image
-                            width={250}
-                            height={250}
-                            src={pic1} 
-                            alt="image"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                    <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                        <Image
-                            width={250}
-                            height={250}
-                            src={pic2} 
-                            alt="image"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                    <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                        <Image
-                            width={250}
-                            height={250}
-                            src={pic3} 
-                            alt="image"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                    <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                        <Image
-                            width={250}
-                            height={250}
-                            src={pic4} 
-                            alt="image"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
+                <div className="flex w-full">
+                    
+                    <Image width={950} height={620} src={pic1} className="w-full h-full object-cover " alt="image"/>
+                    
                 </div>
             </div>
         </div>

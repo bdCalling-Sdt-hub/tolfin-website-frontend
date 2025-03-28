@@ -142,7 +142,7 @@ const ServiceSection: React.FC = () => {
                     {/* Scrollable Container */}
                     <div className="overflow-y-auto max-h-[550px]  scrollbar-hide  display-none">
                         {/* Card 1 */}
-                        <div className="mt-1  flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-1  flex flex-col md:flex-row items-center bg-[#154047] p-2 border border-gray-400 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -167,8 +167,10 @@ const ServiceSection: React.FC = () => {
                             </div>
                         </div>
 
+                        
+
                         {/* Card 2 */}
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -192,7 +194,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -216,7 +218,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -240,7 +242,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -272,7 +274,7 @@ const ServiceSection: React.FC = () => {
 
             {/* Book Appointment Button */}
             <div className="flex justify-center mt-8">
-                <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#154047] border border-gray-400 text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
                     Book Appointment
                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                         <FaArrowRight className="text-white" />

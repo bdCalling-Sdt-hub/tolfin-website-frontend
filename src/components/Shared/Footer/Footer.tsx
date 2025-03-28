@@ -19,7 +19,7 @@ const Footer = () => {
                 width={130} 
                 height={80}
                 
-                className="object-contain bg-white p-2 rounded-md"
+                className="object-contain bg-[#627F84] p-2 rounded-md"
               />
             </div>
           </Link>

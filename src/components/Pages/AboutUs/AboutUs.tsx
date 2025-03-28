@@ -5,10 +5,8 @@ import ServiceSect from "../Home/Features";
 import MeetSession from "../Home/MeetSession";
 import Image from "next/image";
 
-import pic1 from "@/assets/about/aboucomputer.jpg";
-import pic2 from "@/assets/about/AboutTrade.jpg";
-import pic3 from "@/assets/about/Aboutsecuraty.jpg";
-import pic4 from "@/assets/about/aboutcctv.png";
+import pic1 from "@/assets/about/Frame 30.png";
+
 
 
 
@@ -31,43 +29,10 @@ const AboutUs = () => {
             </div>
 
             {/* Right Side Image */}
-            <div className="grid grid-cols-2 gap-4 w-full md:w-[500px]">
-              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                <Image
-                  width={250}
-                  height={250}
-                  src={pic1} // Update with the correct path
-                  alt="image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                <Image
-                  width={250}
-                  height={250}
-                  src={pic2} // Update with the correct path
-                  alt="image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                <Image
-                  width={250}
-                  height={250}
-                  src={pic3} // Update with the correct path
-                  alt="image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="border-4 border-[#154047] rounded-lg overflow-hidden">
-                <Image
-                  width={250}
-                  height={250}
-                  src={pic4} // Update with the correct path
-                  alt="image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="flex w-full">
+
+              <Image width={950} height={620} src={pic1} className="w-full h-full object-cover " alt="image" />
+
             </div>
           </div>
         </div>

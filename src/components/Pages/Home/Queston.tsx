@@ -48,7 +48,7 @@ export default function Question() {
                         </button>
                         {isOpen === index && (
                             <div className="mt-2 text-gray-200">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                             </div>
                         )}
                     </div>

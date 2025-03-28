@@ -23,7 +23,7 @@ const ServiceSection: React.FC = () => {
                 {/* Right Side Service Cards (4 Cards in Two Rows) */}
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {/* Card 1 */}
-                    <div className="flex md:flex-row items-center bg-[#154047] p-6 rounded-3xl shadow-xl space-x-6">
+                    <div className="flex md:flex-row items-center bg-[#154047] border border-gray-400 p-6 rounded-3xl shadow-xl space-x-6">
                         <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
@@ -48,7 +48,7 @@ const ServiceSection: React.FC = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="flex items-center bg-[#154047] p-6 rounded-3xl shadow-xl space-x-6">
+                    <div className="flex items-center bg-[#154047] border border-gray-400 p-6 rounded-3xl shadow-xl space-x-6">
                         <div className="w-1/3 border-2 border-[#A2E8E0] rounded-3xl">
                             <Image
                                 width={150}
@@ -73,7 +73,7 @@ const ServiceSection: React.FC = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="flex items-center bg-[#154047] p-6 rounded-2xl shadow-3xl space-x-6">
+                    <div className="flex items-center bg-[#154047] border border-gray-400 p-6 rounded-2xl shadow-3xl space-x-6">
                         <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
@@ -98,7 +98,7 @@ const ServiceSection: React.FC = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="flex items-center bg-[#154047] p-6 rounded-3xl shadow-xl space-x-6">
+                    <div className="flex items-center bg-[#154047] border border-gray-400 p-6 rounded-3xl shadow-xl space-x-6">
                         <div className="w-1/3 border-2 border-[#A2E8E0] rounded-2xl">
                             <Image
                                 width={150}
