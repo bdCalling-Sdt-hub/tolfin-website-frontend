@@ -36,7 +36,7 @@ export default function Question() {
             </div>
 
             {/* Right side: FAQ content */}
-            <div className="w-full md:w-3/3 lg:ml-8 bg-[#154047] p-5 rounded-3xl space-y-4">
+            <div className="w-full md:w-3/3 lg:ml-8 bg-[#154047] p-5 rounded-[50px] space-y-4">
                 {['Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?'].map((question, index) => (
                     <div key={index} className="rounded-lg p-4 border-b-2 border-gray-600">
                         <button

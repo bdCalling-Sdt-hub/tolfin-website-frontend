@@ -241,7 +241,7 @@ const Navbar = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   return (
-    <header className={`w-full h-[80px] fixed top-0 z-50 transition-all duration-300`}>
+    <header className={`w-full h-[90px] fixed top-0 z-50 transition-all duration-300`}>
       <nav className="md:w-full md:container mx-auto flex justify-between items-center h-full">
         {/* Logo */}
         <Link href="/">
@@ -249,7 +249,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center gap-5 md:gap-8 bg-[#1540477D] px-4 rounded-lg">
+        <ul className="hidden md:flex items-center gap-5 md:gap-8 bg-[#1540477D] px-4 rounded-lg ">
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link 
@@ -302,7 +302,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href="/register">
-              <button className="px-5 py-2 bg-[#1540477D] h-[70px] text-white rounded-lg flex items-center">Sign In <CiUser /></button>
+              <button className="px-5 py-2 bg-[#1540477D] h-[60px] text-white rounded-lg flex items-center">Sign In <CiUser /></button>
             </Link>
           )}
         </div>
@@ -331,6 +331,8 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+
+          
 
           {/* Mobile User Section */}
           <div className="flex justify-center py-4">

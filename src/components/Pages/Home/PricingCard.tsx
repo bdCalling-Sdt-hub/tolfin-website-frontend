@@ -14,7 +14,7 @@ export default function PricingCard() {
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4">
 
                     {/* Retainer Option Card */}
-                    <div className="w-full max-w-[552px] h-[580px] mx-auto bg-[#154047] text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between">
+                    <div className="w-full max-w-[552px] h-[480px] mx-auto bg-[#154047] text-white rounded-[50px] p-8 shadow-xl flex flex-col justify-between">
                         <div>
                             <h2 className="text-2xl font-semibold mb-6  pb-2">
                                 Retainer Option (For ongoing support and priority service)
@@ -30,7 +30,7 @@ export default function PricingCard() {
                         </div>
                         <div className="flex justify-center">
                             <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
                                     Book Appointment
                                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                                         <FaArrowRight className="text-white" />
@@ -41,7 +41,7 @@ export default function PricingCard() {
                     </div>
 
                     {/* Ad-Hoc or On-Demand Option Card */}
-                    <div className="w-full max-w-[552px] h-[580px] mx-auto bg-[#154047] text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between">
+                    <div className="w-full max-w-[552px] h-[480px] mx-auto bg-[#154047] text-white rounded-[50px] p-8 shadow-xl flex flex-col justify-between">
                         <div>
                             <h2 className="text-2xl font-semibold mb-6  pb-2">
                                 Ad-Hoc or On-Demand Option
@@ -56,7 +56,7 @@ export default function PricingCard() {
                         </div>
                         <div className="flex justify-center">
                             <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
                                     Book Appointment
                                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                                         <FaArrowRight className="text-white" />
@@ -67,7 +67,7 @@ export default function PricingCard() {
                     </div>
 
                     {/* Retainer Option Card */}
-                    <div className="w-full max-w-[552px] h-[580px] mx-auto bg-[#154047] text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between">
+                    <div className="w-full max-w-[552px] h-[480px] mx-auto bg-[#154047] text-white rounded-[50px] p-8 shadow-xl flex flex-col justify-between">
                         <div>
                             <h2 className="text-2xl font-semibold mb-6  pb-2">
                                 Retainer Option (For ongoing support and priority service)
@@ -83,7 +83,7 @@ export default function PricingCard() {
                         </div>
                         <div className="flex justify-center">
                             <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
                                     Book Appointment
                                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                                         <FaArrowRight className="text-white" />

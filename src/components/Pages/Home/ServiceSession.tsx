@@ -25,7 +25,7 @@
 //                                 height={250}
 //                                 src={Frame} // Update with the correct path
 //                                 alt="image"
-//                                 className="w-full h-full object-cover rounded-2xl"
+//                                 className="w-full h-full object-cover rounded-[50px]"
 //                             />
 //                         </div>
 //                     </div>
@@ -34,7 +34,7 @@
 //                 {/* Right Side Service Cards */}
 //                 <div className="flex flex-col space-y-8 w-full lg:w-1/2">
 //                     {/* Card 1 */}
-//                     <div className="flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+//                     <div className="flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
 //                         {/* Left Side Image */}
 //                         <div className="w-1/3">
 //                             <Image
@@ -42,7 +42,7 @@
 //                                 height={150}
 //                                 src={pailoat} // Update with the correct path
 //                                 alt="image"
-//                                 className="w-full h-full object-cover rounded-2xl"
+//                                 className="w-full h-full object-cover rounded-[50px]"
 //                             />
 //                         </div>
 //                         {/* Right Side Content */}
@@ -60,7 +60,7 @@
 //                     </div>
 
 //                     {/* Card 2 */}
-//                     <div className="flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-2xl shadow-3xl space-y-4 md:space-y-0 md:space-x-6">
+//                     <div className="flex flex-col md:flex-row items-center bg-[#154047] p-2 rounded-[50px] shadow-3xl space-y-4 md:space-y-0 md:space-x-6">
 //                         {/* Left Side Image */}
 //                         <div className="w-1/3">
 //                             <Image
@@ -68,7 +68,7 @@
 //                                 height={150}
 //                                 src={pailoat} // Update with the correct path
 //                                 alt="image"
-//                                 className="w-full h-full object-cover rounded-2xl"
+//                                 className="w-full h-full object-cover rounded-[50px]"
 //                             />
 //                         </div>
 //                         {/* Right Side Content */}
@@ -131,7 +131,7 @@ const ServiceSection: React.FC = () => {
                                 height={250}
                                 src={Frame} // Update with the correct path
                                 alt="image"
-                                className="w-full h-full object-cover rounded-2xl"
+                                className="w-full h-full object-cover rounded-[50px]"
                             />
                         </div>
                     </div>
@@ -142,7 +142,7 @@ const ServiceSection: React.FC = () => {
                     {/* Scrollable Container */}
                     <div className="overflow-y-auto max-h-[550px]  scrollbar-hide  display-none">
                         {/* Card 1 */}
-                        <div className="mt-1  flex flex-col md:flex-row items-center bg-[#154047] p-2 border border-gray-400 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-1  flex flex-col md:flex-row items-center bg-[#154047] p-2 border border-gray-400 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -150,7 +150,7 @@ const ServiceSection: React.FC = () => {
                                     height={150}
                                     src={pailoat} // Update with the correct path
                                     alt="image"
-                                    className="w-full h-auto object-cover rounded-3xl"
+                                    className="w-full h-auto object-cover rounded-[50px]"
                                 />
                             </div>
                             {/* Right Side Content */}
@@ -170,7 +170,7 @@ const ServiceSection: React.FC = () => {
                         
 
                         {/* Card 2 */}
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -178,7 +178,7 @@ const ServiceSection: React.FC = () => {
                                     height={150}
                                     src={pailoat} // Update with the correct path
                                     alt="image"
-                                    className="w-full h-full object-cover rounded-2xl"
+                                    className="w-full h-full object-cover rounded-[50px]"
                                 />
                             </div>
                             {/* Right Side Content */}
@@ -194,7 +194,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -202,7 +202,7 @@ const ServiceSection: React.FC = () => {
                                     height={150}
                                     src={pailoat} // Update with the correct path
                                     alt="image"
-                                    className="w-full h-full object-cover rounded-2xl"
+                                    className="w-full h-full object-cover rounded-[50px]"
                                 />
                             </div>
                             {/* Right Side Content */}
@@ -218,7 +218,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -226,7 +226,7 @@ const ServiceSection: React.FC = () => {
                                     height={150}
                                     src={pailoat} // Update with the correct path
                                     alt="image"
-                                    className="w-full h-full object-cover rounded-2xl"
+                                    className="w-full h-full object-cover rounded-[50px]"
                                 />
                             </div>
                             {/* Right Side Content */}
@@ -242,7 +242,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-3xl shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -250,7 +250,7 @@ const ServiceSection: React.FC = () => {
                                     height={150}
                                     src={pailoat} // Update with the correct path
                                     alt="image"
-                                    className="w-full h-full object-cover rounded-2xl"
+                                    className="w-full h-full object-cover rounded-[50px]"
                                 />
                             </div>
                             {/* Right Side Content */}

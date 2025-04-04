@@ -15,13 +15,13 @@ export default function Service() {
                 <div className="w-full container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Service Card */}
                     {[...Array(9)].map((_, index) => (
-                        <div key={index} className="bg-[#154047] rounded-lg overflow-hidden shadow-lg">
+                        <div key={index} className="bg-[#154047] rounded-[50px] overflow-hidden shadow-lg">
                             <Image
                                 src={image} // Replace with actual image URL
                                 alt="Service"
                                 width={500}
                                 height={300}
-                                className="object-cover w-full h-64"
+                                className="object-cover w-full h-64 rounded-[60px] p-3"
                             />
                             <div className="p-6">
                                 <h3 className="text-xl font-semibold mb-4">Security Solutions & Armed Escort Services</h3>
