@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/assets/logo/tolfin.png"; // Replace with your logo file
+import logo from "@/assets/logo/FooterLogo.png"; // Replace with your logo file
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Link from "next/link";
 import footer from "@/assets/logo/footer.png"; // Replace with the image path of your choice
@@ -16,10 +16,10 @@ const Footer = () => {
               <Image
                 src={logo}
                 alt="Tolfin Logo"
-                width={130} 
+                width={230} 
                 height={80}
                 
-                className="object-contain bg-[#627F84] p-2 rounded-md"
+                className="object-contain p-2 rounded-md"
               />
             </div>
           </Link>

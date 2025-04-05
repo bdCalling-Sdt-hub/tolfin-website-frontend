@@ -242,19 +242,19 @@ const Navbar = () => {
 
   return (
     <header className={`w-full h-[90px] fixed top-0 z-50 transition-all duration-300`}>
-      <nav className="md:w-full md:container mx-auto flex justify-between items-center h-full">
+      <nav className="md:w-full md:container mx-auto flex justify-between items-center h-full ">
         {/* Logo */}
         <Link href="/">
-          <Image src={logo} alt="logo" width={130} height={70} className="rounded-md bg-[#1540477D] p-2 " />
+          <Image src={logo} alt="logo" width={130} height={70} className="rounded-md bg-[#1540477D] border  border-[#627F84]  p-2 " />
         </Link>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center gap-5 md:gap-8 bg-[#1540477D] px-4 rounded-lg ">
+        <ul className=" hidden md:flex items-center gap-7 md:gap-8 bg-[#1540477D] border  border-[#627F84]   px-12 rounded-lg ">
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link 
                 href={link.href} 
-                className={`text-white ${activeLink === link.href ? 'bg-[#627F84] w-full block p-4 text-center rounded-3xl` text-white' : 'hover:text-gray-300' }`}
+                className={`text-white ${activeLink === link.href ? 'bg-[#627F84] w-full py-4 px-2 block text-center  border-b-2` text-white' : 'hover:text-gray-300' }`}
                 onClick={() => setActiveLink(link.href)} // Set the active link
               >
                 {link.name}
@@ -302,7 +302,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href="/register">
-              <button className="px-5 py-2 bg-[#1540477D] h-[60px] text-white rounded-lg flex items-center">Sign In <CiUser /></button>
+              <button className="px-5 py-2 bg-[#1540477D] border  border-[#627F84] h-[60px] text-white  rounded-lg flex items-center">Sign In <CiUser /></button>
             </Link>
           )}
         </div>

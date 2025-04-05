@@ -142,7 +142,7 @@ const ServiceSection: React.FC = () => {
                     {/* Scrollable Container */}
                     <div className="overflow-y-auto max-h-[550px]  scrollbar-hide  display-none">
                         {/* Card 1 */}
-                        <div className="mt-1  flex flex-col md:flex-row items-center bg-[#154047] p-2 border border-gray-400 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-2  flex flex-col md:flex-row items-center bg-[#154047] p-2 border border-[#627F84] rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -170,7 +170,7 @@ const ServiceSection: React.FC = () => {
                         
 
                         {/* Card 2 */}
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-4 flex flex-col md:flex-row items-center bg-[#154047] border border-[#627F84] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -194,7 +194,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-4 flex flex-col md:flex-row items-center bg-[#154047] border border-[#627F84] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -218,7 +218,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-4 flex flex-col md:flex-row items-center bg-[#154047] border border-[#627F84] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image
@@ -242,7 +242,7 @@ const ServiceSection: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-2 flex flex-col md:flex-row items-center bg-[#154047] border border-gray-400 p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
+                        <div className="mt-4 flex flex-col md:flex-row items-center bg-[#154047] border border-[#627F84] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
                             {/* Left Side Image */}
                             <div className="w-1/3">
                                 <Image

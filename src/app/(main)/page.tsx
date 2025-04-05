@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <section className="w-full  bg-gradient-to-t from-[#111111] to-[#111111]">
       <HeroSection />
+      <WhyChooseUs />
       <AboutUs />
       <ServiceSection />
-      <WhyChooseUs />
       <PricingCard />
       <TestimonialSection/>
       <TeamSection/>
