@@ -15,7 +15,7 @@ export default function Service() {
                 <div className="w-full container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Service Card */}
                     {[...Array(9)].map((_, index) => (
-                        <div key={index} className="bg-[#154047] rounded-[50px] overflow-hidden shadow-lg">
+                        <div key={index} className="bg-[#154047] w-full  rounded-[50px] overflow-hidden shadow-lg">
                             <Image
                                 src={image} // Replace with actual image URL
                                 alt="Service"

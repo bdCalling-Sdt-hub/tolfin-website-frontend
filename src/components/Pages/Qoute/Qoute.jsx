@@ -5,7 +5,7 @@ export default function Qoute() {
         <div className='bg-[#111]'>
             
 
-            <div className="min-h-screen text-white p-8 ">
+            <div className=" text-white p-8 ">
                 <div className="container mx-auto  p-6 rounded-lg shadow-lg mt-20">
                     <h1 className="text-2xl font-bold mb-6 text-center">Get A Quote</h1>
 
