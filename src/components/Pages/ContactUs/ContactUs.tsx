@@ -23,9 +23,9 @@ const ContactForm = () => {
           </div>
 
 
-          <div className="flex-1">
-            <div className="flex gap-4">
-              <div className="mb-6">
+          <div className="flex-1 w-full">
+            <div className="w-full flex gap-4">
+              <div className="mb-6 w-full">
                 <p className="mb-2">First Name (required)</p>
                 <input
                   type="text"
@@ -33,7 +33,7 @@ const ContactForm = () => {
                   className="w-full p-3 bg-[#4F6367] text-white rounded-md mb-4"
                 />
               </div>
-              <div className="mb-6">
+              <div className="mb-6 w-full">
                 <p className="mb-2">Last Name (required)</p>
                 <input
                   type="text"
@@ -42,8 +42,8 @@ const ContactForm = () => {
                 />
               </div>
             </div>
-            <div className="flex gap-4">
-              <div className="mb-6">
+            <div className="flex gap-4 w-full">
+              <div className="mb-6 w-full">
                 <p className="mb-2">Email (required)</p>
                 <input
                   type="email"
@@ -51,7 +51,7 @@ const ContactForm = () => {
                   className="w-full p-3 bg-[#4F6367] text-white rounded-md"
                 />
               </div>
-              <div className="mb-6">
+              <div className="mb-6 w-full">
                 <p className="mb-2">Telephone (required)</p>
                 <input
                   type="tel"
@@ -64,6 +64,7 @@ const ContactForm = () => {
               <p className="mb-2">Details</p>
               <textarea
                 placeholder="Add details"
+             
                 className="w-full p-3 bg-[#4F6367] text-white rounded-md h-24"
               ></textarea>
             </div>

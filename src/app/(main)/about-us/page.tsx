@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Us | 1Plus1 Dating website",
+  title: "About Us | Tolfin Security website",
   description: "About us page",
   keywords: ["about us", "page", "example"],
 };

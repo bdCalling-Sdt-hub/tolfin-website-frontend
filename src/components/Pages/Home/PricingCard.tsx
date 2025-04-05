@@ -5,15 +5,15 @@ export default function PricingCard() {
     return (
         <section className="py-12 text-white">
             <div className="w-full container mx-auto">
-                <h2 className="text-3xl font-semibold mb-5 text-center">Pricing Structure</h2>
-                <p className="text-xl mb-4 text-center">"Flexible & Transparent Pricing"</p>
-                <p className="text-lg mb-12 text-center">
+                <h2 className="text-3xl font-semibold mb-5 ">Pricing Structure</h2>
+                <p className="text-xl mb-4 ">"Flexible & Transparent Pricing"</p>
+                <p className="text-lg mb-12 ">
                     Choose from retainer plans or on-demand services to match your specific needs and budget.
                 </p>
                 <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
 
                     {/* Ad-Hoc or On-Demand Option Card */}
-                    <div className="w-full md:w-[552px] h-[480px] bg-[#154047] border border-[#627F84] text-white rounded-[50px] p-8 shadow-xl ">
+                    <div className="w-full md:w-[552px] h-[480px] bg-[#154047] border border-[#627F84] text-white rounded-[80px] p-8 shadow-xl ">
                         <div>
                             <h2 className="text-2xl text-center font-semibold mb-6 pb-2">
                                Ad-Hoc or On-Demand Option
@@ -26,7 +26,7 @@ export default function PricingCard() {
                         </div>
                         <div className="flex justify-center">
                             <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
+                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[10px] py-2 px-6 hover:bg-opacity-80 transition-all">
                                     Book Appointment
                                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                                         <FaArrowRight className="text-white" />
@@ -37,7 +37,7 @@ export default function PricingCard() {
                     </div>
 
                     {/* Retainer Option Card */}
-                    <div className="w-full md:w-[552px] h-[480px] bg-[#154047] border border-[#627F84] text-white rounded-[50px] p-8 shadow-xl ">
+                    <div className="w-full md:w-[552px] h-[480px] bg-[#154047] border border-[#627F84] text-white rounded-[80px] p-8 shadow-xl ">
                         <div>
                             <h2 className="text-2xl text-center font-semibold mb-6 pb-2">
                                 Retainer Option (For ongoing support and priority service)
@@ -50,7 +50,7 @@ export default function PricingCard() {
                         </div>
                         <div className="flex justify-center">
                             <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
+                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[10px] py-2 px-6 hover:bg-opacity-80 transition-all">
                                     Book Appointment
                                     <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
                                         <FaArrowRight className="text-white" />
@@ -65,3 +65,9 @@ export default function PricingCard() {
         </section>
     );
 }
+
+
+
+
+
+

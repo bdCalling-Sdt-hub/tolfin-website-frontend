@@ -12,7 +12,7 @@ export default function Question() {
     };
 
     return (
-        <div className="w-full container text-white lg:flex items-center justify-center pb-20 px-4 sm:px-4 ">
+        <div className="w-full container text-white lg:flex items-center justify-center pb-20 px-4 sm:px-4 mt-10">
 
             <div className='w-full md:w-1/2'>
                 <div className="flex flex-col items-start text-white">
@@ -38,7 +38,7 @@ export default function Question() {
             {/* Right side: FAQ content */}
             <div className="w-full md:w-3/3 lg:ml-8 bg-[#154047] p-5 rounded-[50px] space-y-4">
                 {['Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?', 'Can I see who reads my email campaigns?'].map((question, index) => (
-                    <div key={index} className="rounded-lg p-4 border-b-2 border-gray-600">
+                    <div key={index} className="rounded-lg p-4 py-8 border-b-2 border-gray-600">
                         <button
                             className="w-full text-left text-xl font-semibold focus:outline-none flex justify-between items-center"
                             onClick={() => toggleQuestion(index)}
