@@ -51,7 +51,7 @@ const VerticalAccordion = () => {
             onClick={() => handleToggle(idx)}
 
 
-            className={` flex h-full w-fit items-end border-b-8 rounded-[50px] bg-[#154047] `}
+            className={` flex h-full w-fit items-end  rounded-[50px] bg-[#154047] `}
           >
             <Image src={image1} alt="image"  className="w-[200px] h-full rounded-[300px] px-5" />
           </button>
