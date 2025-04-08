@@ -31,12 +31,18 @@ export default function Service() {
                                     Providing armed security for high-net-worth individuals, dignitaries, and sensitive events.
                                 </p>
                                 <div className="flex justify-center mt-4">
-                                    <Link href="/bookingFrom"><button className="border  border-[#627F84] flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-[10px] shadow-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
-                                        Book Appointment
-                                        <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                                            <FaArrowRight className="text-white" />
-                                        </div>
-                                    </button></Link>
+                                    <Link href="/bookingFrom">
+                                        <button className="group relative flex items-center bg-[#154047] border border-[#627F84] text-[#A2E8E0] rounded-[10px] shadow-[50px] py-2 px-4 transition-all duration-300 overflow-hidden">
+                                           
+                                            <span className="ml-0  group-hover:opacity-100 group-hover:ml-4 transition-all duration-300 whitespace-nowrap">
+                                                Book Appointment
+                                            </span>
+                                            <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center transition-all">
+                                                <FaArrowRight className="text-white" />
+                                            </div>
+                                        </button>
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
