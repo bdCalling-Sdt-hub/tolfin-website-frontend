@@ -1,6 +1,8 @@
 // pages/index.js
 import Image from 'next/image';
 import image from '@/assets/about/pailoat.png';
+import Link from 'next/link';
+import { FaArrowRight } from 'react-icons/fa';
 
 export default function Service() {
     return (
@@ -29,9 +31,12 @@ export default function Service() {
                                     Providing armed security for high-net-worth individuals, dignitaries, and sensitive events.
                                 </p>
                                 <div className="flex justify-center mt-4">
-                                    <button className="text-[#94c2c9] px-6 py-2 rounded-2xl shadow-2xl bg-[#abe9f360] hover:bg-gray-600 transition-colors">
-                                        Learn More
-                                    </button>
+                                    <Link href="/bookingFrom"><button className="border  border-[#627F84] flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-[10px] shadow-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
+                                        Book Appointment
+                                        <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
+                                            <FaArrowRight className="text-white" />
+                                        </div>
+                                    </button></Link>
                                 </div>
                             </div>
                         </div>
