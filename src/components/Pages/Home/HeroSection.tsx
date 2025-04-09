@@ -53,10 +53,10 @@ const HeroSection = () => {
                   {!user && (
                     <div className="mt-5">
                       <Link href="/bookingFrom">
-                        <button className="flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
-                          Book Appointment
-                          <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                            <FaArrowRight className="text-white" />
+                        <button className="flex items-center w-[300px] h-[76px] gap-2 bg-[#154047] border border-[#40eedf9d]  rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                          <h2 className="text-xl text-white mr-5">Book Appointment</h2>
+                          <div className="bg-[#3ac7bb9d] w-10 h-10 rounded-lg flex items-center justify-center ">
+                            <FaArrowRight className="text-white justify-end" />
                           </div>
                         </button>
                       </Link>

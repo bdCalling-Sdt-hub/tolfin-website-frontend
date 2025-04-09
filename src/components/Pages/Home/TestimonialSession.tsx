@@ -53,7 +53,7 @@ const VerticalAccordion = () => {
   };
 
   return (
-    <div className="w-full container">
+    <div className="w-full container sm:hidedn md:block">
       <div className=''>
         <h2 className="text-3xl font-bold  mt-10 text-center md:text-left text-white">
           What they say about us
@@ -70,13 +70,13 @@ const VerticalAccordion = () => {
               className={`${isActive === idx ? "hidden" : ""
                 } flex h-full w-fit items-end rounded-[200px] bg-[#154047] ml-2`}
             >
-              <Image src={data.image} alt="image" className="w-[200px] h-full rounded-[300px] p-5 object-cover" />
+              <Image src={data.image} alt="image" className="lg:w-[200px] h-full rounded-[300px] p-5 object-cover" />
             </button>
 
             {/* Accordion Content Section */}
             <div
               className={`grid place-content-center ${isActive === idx
-                ? "opacity-1 w-[220px] md:w-[960px] px-5 rounded-[50px] translate-x-0"
+                ? "opacity-1 w-[220px] xl:w-[970px] px-5 rounded-[50px] translate-x-0"
                 : "w-0 scale-0 opacity-0 translate-x-[100%]"
                 }  duration-1000 ease-in-out -z-20 -rotate-90 bg-[#154047] text-black md:rotate-0`}
             >
@@ -110,3 +110,7 @@ const VerticalAccordion = () => {
 };
 
 export default VerticalAccordion;
+
+
+
+

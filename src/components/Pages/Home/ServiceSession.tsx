@@ -167,7 +167,7 @@ const ServiceSection: React.FC = () => {
                             </div>
                         </div>
 
-                        
+
 
                         {/* Card 2 */}
                         <div className="mt-4 flex flex-col md:flex-row items-center bg-[#154047] border border-[#627F84] p-2 rounded-[50px] shadow-xl space-y-4 md:space-y-0 md:space-x-6">
@@ -267,19 +267,21 @@ const ServiceSection: React.FC = () => {
                             </div>
                         </div>
 
-                         
+
                     </div>
                 </div>
             </div>
 
             {/* Book Appointment Button */}
             <div className="flex justify-center mt-8">
-                <Link href="/bookingFrom"><button className="flex items-center gap-2 bg-[#154047] border border-gray-400 text-[#A2E8E0] rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
-                    Book Appointment
-                    <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                        <FaArrowRight className="text-white" />
-                    </div>
-                </button></Link>
+                <Link href="/bookingFrom">
+                    <button className="flex items-center w-[300px] h-[76px] gap-2 bg-[#154047] border border-[#40eedf9d]  rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                        <h2 className="text-xl text-white mr-5">Book Appointment</h2>
+                        <div className="bg-[#3ac7bb9d] w-10 h-10 rounded-lg flex items-center justify-center ">
+                            <FaArrowRight className="text-white justify-end" />
+                        </div>
+                    </button>
+                </Link>
             </div>
         </div>
     );

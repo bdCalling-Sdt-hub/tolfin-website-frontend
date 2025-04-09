@@ -85,7 +85,7 @@ const ServiceSection: React.FC = () => {
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                
+
                                 <div className="text-white font-semibold text-lg">
                                     03 <br />
                                     AIRPORT TRANSFERS & CUSTOMIZED TRAVEL PLANS
@@ -110,7 +110,7 @@ const ServiceSection: React.FC = () => {
                         </div>
                         <div className="flex flex-col items-start space-y-4 w-2/3">
                             <div className="flex space-x-4">
-                                
+
                                 <div className="text-white font-semibold text-lg">
                                     04 <br />
                                     EMERGENCY RESPONSE & SECURITY CONSULTATION
@@ -126,12 +126,14 @@ const ServiceSection: React.FC = () => {
 
             {/* Book Appointment Button */}
             <div className="flex justify-center  mt-8">
-                <Link href="/bookingFrom"><button className="border  border-[#627F84] flex items-center gap-2 bg-[#154047] text-[#A2E8E0] rounded-[10px] shadow-[50px] py-2 px-6 hover:bg-opacity-80 transition-all">
-                    Book Appointment
-                    <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                        <FaArrowRight className="text-white" />
-                    </div>
-                </button></Link>
+                <Link href="/bookingFrom">
+                    <button className="flex items-center lg:w-[300px] h-[76px] gap-2 bg-[#154047] border border-[#40eedf9d]  rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                        <h2 className="text-xl text-white mr-5">Book Appointment</h2>
+                        <div className="bg-[#3ac7bb9d] w-10 h-10 rounded-lg flex items-center justify-center ">
+                            <FaArrowRight className="text-white justify-end" />
+                        </div>
+                    </button>
+                </Link>
             </div>
         </div>
     );

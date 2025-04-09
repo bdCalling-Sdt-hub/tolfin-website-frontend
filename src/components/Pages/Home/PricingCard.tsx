@@ -16,7 +16,7 @@ export default function PricingCard() {
                     <div className="w-full md:w-[552px] h-[480px] bg-[#154047] border border-[#627F84] text-white rounded-[80px] p-8 shadow-xl ">
                         <div>
                             <h2 className="text-2xl text-center font-semibold mb-6 pb-2">
-                               Ad-Hoc or On-Demand Option
+                                Ad-Hoc or On-Demand Option
                             </h2>
                             <p className="border-b-2 border-[#A2E8E0] mt-5 pt-10 mb-5"></p>
                             <ul className="list-disc pl-6 mb-6">
@@ -25,11 +25,11 @@ export default function PricingCard() {
                             </ul>
                         </div>
                         <div className="flex justify-center">
-                            <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[10px] py-2 px-6 hover:bg-opacity-80 transition-all">
-                                    Book Appointment
-                                    <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                                        <FaArrowRight className="text-white" />
+                            <Link href="/bookingFrom">
+                                <button className="flex items-center lg:w-[300px] h-[60px] gap-2 bg-[#42686e]     rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                                    <h2 className="text-xl text-white mr-5">Book Appointment</h2>
+                                    <div className="bg-[#43f8e9ce] w-10 h-10 rounded-lg flex items-center justify-center ">
+                                        <FaArrowRight className="text-white justify-end" />
                                     </div>
                                 </button>
                             </Link>
@@ -49,11 +49,11 @@ export default function PricingCard() {
                             </ul>
                         </div>
                         <div className="flex justify-center">
-                            <Link href="/bookingForm">
-                                <button className="flex items-center gap-2 bg-[#42686e] text-[#A2E8E0] rounded-[10px] py-2 px-6 hover:bg-opacity-80 transition-all">
-                                    Book Appointment
-                                    <div className="bg-[#0b2e2b9d] w-10 h-10 rounded-lg flex items-center justify-center">
-                                        <FaArrowRight className="text-white" />
+                            <Link href="/bookingFrom">
+                                <button className="flex items-center lg:w-[300px] h-[60px] gap-2 bg-[#42686e]     rounded-lg py-2 px-6 hover:bg-opacity-80 transition-all">
+                                    <h2 className="text-xl text-white mr-5">Book Appointment</h2>
+                                    <div className="bg-[#43f8e9ce] w-10 h-10 rounded-lg flex items-center justify-center ">
+                                        <FaArrowRight className="text-white justify-end" />
                                     </div>
                                 </button>
                             </Link>
