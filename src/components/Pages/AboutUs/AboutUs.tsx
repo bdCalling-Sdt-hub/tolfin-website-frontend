@@ -36,8 +36,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <ServiceSection />
-        <ServiceSect />
+        
         <MeetSession />
       </div>
     </div>
