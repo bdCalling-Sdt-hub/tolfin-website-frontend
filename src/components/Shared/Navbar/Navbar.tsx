@@ -246,7 +246,7 @@ const Navbar = () => {
       <nav className="md:w-full md:container mx-auto flex justify-between items-center h-full ">
         {/* Logo */}
         <Link href="/">
-          <Image src={logo} alt="logo" width={180} height={70} className="rounded-md bg-[#1540477D] border  border-[#627F84]  p-2 " />
+          <Image src={logo} alt="logo" width={180} height={70} className="rounded-md bg-[#1540477D] border  border-[#62aebb]  p-2 " />
         </Link>
 
         {/* Desktop Navigation */}
@@ -303,7 +303,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link href="/register">
-              <button className="px-5 p-8 bg-[#1540477D] border  border-[#627F84] h-[60px] text-white text-xl  rounded-lg flex items-center">Sign In  <BiSolidUser className="ml-2"/></button>
+              <button className="px-5 p-8 bg-[#1540477D] border  border-[#71c9d8] h-[60px] text-white text-xl  rounded-lg flex items-center">Sign In  <BiSolidUser className="ml-2"/></button>
             </Link>
           )}
         </div>
