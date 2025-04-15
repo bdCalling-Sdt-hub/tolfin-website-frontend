@@ -14,7 +14,7 @@ export default function Service() {
                     </h2>
                     <p className='font-small text-gray-600 py-5'>Elite Security & Travel Solutions You Can Trust.Providing seamless VIP travel, <br /> security, and protocol services with professionalism and discretion.</p>
                 </div>
-                <div className="w-full container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Service Card */}
                     {[...Array(9)].map((_, index) => (
                         <div key={index} className="bg-[#154047] w-full  rounded-[50px] overflow-hidden shadow-lg">

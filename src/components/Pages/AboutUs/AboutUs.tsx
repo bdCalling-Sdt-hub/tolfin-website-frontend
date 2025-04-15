@@ -13,7 +13,7 @@ import pic1 from "@/assets/about/Frame 30.png";
 const AboutUs = () => {
   return (
     <div className="bg-[#111111] text-white py-12">
-      <div className="w-full container mt-20">
+      <div className="w-full  mt-20">
         {/* Hero Section */}
         <div className=" text-white py-12">
           <div className="w-full container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 ">

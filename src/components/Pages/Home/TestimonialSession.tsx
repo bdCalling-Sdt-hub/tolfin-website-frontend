@@ -1,6 +1,4 @@
 
-
-
 "use client";
 import Image from "next/image";
 import { useState } from "react";
@@ -8,6 +6,7 @@ import image1 from "@/assets/hero/holywood1.png";
 import image2 from "@/assets/hero/hlywood2.png";
 import image3 from "@/assets/hero/jonydev.png";
 import image4 from "@/assets/hero/the rock.png";
+
 
 const accordionData = [
   {
@@ -53,8 +52,8 @@ const VerticalAccordion = () => {
   };
 
   return (
-    <div className="w-full container sm:hidedn md:block">
-      <div className=''>
+    <div className="w-full  hidden md:block">
+      <div className='container'>
         <h2 className="text-3xl font-bold  mt-10 text-center md:text-left text-white">
           What they say about us
         </h2>
@@ -110,7 +109,6 @@ const VerticalAccordion = () => {
 };
 
 export default VerticalAccordion;
-
 
 
 
