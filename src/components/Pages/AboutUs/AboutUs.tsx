@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import ServiceSection from "../Home/ServiceSession";
-import ServiceSect from "../Home/Features";
 import MeetSession from "../Home/MeetSession";
 import Image from "next/image";
-
 import pic1 from "@/assets/about/Frame 30.png";
 
 

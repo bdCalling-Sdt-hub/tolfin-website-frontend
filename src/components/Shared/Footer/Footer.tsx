@@ -2,8 +2,8 @@ import Image from "next/image";
 import logo from "@/assets/logo/tolfin.png"; // Replace with your logo file
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Link from "next/link";
-import footer from "@/assets/logo/footer.png"; // Replace with the image path of your choice
-import yeollow from "@/assets/hero/yeollow.png"; // Replace with the image path of your choice
+import footer from "@/assets/logo/footer.png"; 
+import yeollow from "@/assets/hero/yeollow.png";
 
 const Footer = () => {
   return (
